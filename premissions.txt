@@ -1,0 +1,4 @@
+IIS users should be greanted modify permissions as follows:
+
+\File Processing
+\File Storage
