@@ -37,14 +37,12 @@ defined('DEFAULT_DATE_FORMAT')					? null :  define( 'DEFAULT_DATE_FORMAT' , 'Y-
 // ------------------------------------------------------------------------------------------------------------------------------------------
 require_once('functions.php');
 require_once('class.database.php');
-require_once('class.email.php');
 
 // ==========================================================================================================================================
 session_start();
 $error_message = '';
 
 $database				=	new pdo_database();
-$email					=	new electronic_mail();
 
 $html			=	'';
 ?>

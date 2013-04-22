@@ -98,8 +98,10 @@ class pdo_database{
 			$html .= $this->bug_report_row( "Error Message" , $this->error_message );
 			$html .= "</table>";
 
-			global $email;
+			// global $email;
 			//$email->send_message_private( "Database Report" , $html );
+
+			error_log( $html );
 
 			//echo $html;
 		}

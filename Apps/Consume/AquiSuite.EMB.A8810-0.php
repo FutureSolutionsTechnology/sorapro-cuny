@@ -441,8 +441,11 @@ class appliance_variable {
 		//Header("WWW-Authenticate: Basic realm=\"UploadRealm\"");    // realm name is actually ignored by the AcquiSuite.
 		//Header("HTTP/1.0 406 Not Acceptable");                      // generate a 400 series http server error response.
 		$html .= "<h2>Notification</h2><p>". $a ."</p>";
-		global $email;
-		$email->send_message_private( "Consumption Report" , $html );
+		
+		
+		//global $email;
+		// $email->send_message_private( "Consumption Report" , $html );
+		error_log( $html );
 	}
 }
 ?>
