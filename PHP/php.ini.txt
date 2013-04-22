@@ -584,6 +584,7 @@ html_errors = On
 ;error_log = php_errors.log
 ; Log errors to syslog (Event Log on NT, not valid in Windows 95).
 ;error_log = syslog
+; sorapro
 error_log=C:\Sorapro\sorapro-cuny\PHP\Log\php54_errors.log
 
 ;windows.show_crt_warning
